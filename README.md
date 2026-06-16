@@ -306,11 +306,11 @@ ara-key
 
 Create:
 
-## CosmosDbEndpoint
+## CosmosDbEndpointEndpoint
 
 | Property | Value                           |
 | -------- | ------------------------------- |
-| Name     | CosmosDbEndpoint                |
+| Name     | CosmosDbEndpointEndpoint                |
 | Value    | `<Cosmos DB Connection String>` |
 
 ## JwtSecret
@@ -386,7 +386,7 @@ Microsoft Entra ID
 objects: |
   array:
     - |
-      objectName: CosmosDbEndpoint
+      objectName: CosmosDbEndpointEndpoint
       objectType: secret
       objectVersion: ""
     - |
@@ -567,7 +567,7 @@ kubectl get httproute
 
 ## Application
 
-* [ ] CosmosDbEndpoint secret created
+* [ ] CosmosDbEndpointEndpoint secret created
 * [ ] JwtSecret created
 * [ ] Kubernetes manifests updated
 * [ ] AKS connected
