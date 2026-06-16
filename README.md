@@ -77,7 +77,7 @@ Create a Key Vault:
 
 | Setting      | Value                  |
 | ------------ | ---------------------- |
-| Name         | Fit-kv1                |
+| Name         | ara-key                |
 | Region       | Same as Resource Group |
 | Pricing Tier | Standard               |
 
@@ -221,7 +221,7 @@ Create the cluster.
 Navigate:
 
 ```text
-Fit-kv1
+ara-key
  └── Access Control (IAM)
       └── Add Role Assignment
 ```
@@ -267,7 +267,7 @@ AKS Cluster
 Example:
 
 ```text
-https://eastus.oic.prod-aks.azure.com/d8537334-bc24-4daf-95a8-bf4c9fb14394/92f2e837-b880-4f97-96cb-48eec3515bdf/
+https://eastus.oic.prod-aks.azure.com/3076b773-f5d9-413e-9564-7deaa3d0d7b7/92f2e837-b880-4f97-96cb-48eec3515bdf/
 ```
 
 Click **Add**.
@@ -279,7 +279,7 @@ Click **Add**.
 Navigate:
 
 ```text
-Fit-kv1
+ara-key
  └── Access Control (IAM)
 ```
 
@@ -300,7 +300,7 @@ Assign to:
 Navigate:
 
 ```text
-Fit-kv1
+ara-key
  └── Secrets
 ```
 
@@ -361,7 +361,7 @@ Replace:
 with:
 
 ```yaml
-Fit-kv1
+ara-key
 ```
 
 Replace:
@@ -548,7 +548,7 @@ kubectl get httproute
 * [ ] aks-subnet created
 * [ ] Cosmos-Subnet created
 * [ ] AzureBastionSubnet created
-* [ ] Fit-kv1 created
+* [ ] ara-key created
 * [ ] fitcosmos created
 * [ ] fitmongope approved
 * [ ] Fit-AKS-uami created

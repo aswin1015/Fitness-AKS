@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: retail-app
-        image: joseluisq/static-web-server:2-debian # A tiny web server just for testing
+        image: hashicorp/http-echo
         args:
         - "-text=Welcome to the Retail App Demo!"
         - "-listen=:8080"
